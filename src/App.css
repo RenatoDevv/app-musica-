@@ -1,0 +1,112 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 275px 1fr;
+}
+
+main {
+  width: auto;
+  padding: 2.5rem 2.5rem 2.5rem .9375rem;
+}
+
+section {
+  width: 100%;
+}
+
+.play-music {
+  padding: 10px 20px;
+  background: #484848;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 72px;
+}
+
+.play-control {
+  display: flex;
+  gap: .625rem;
+}
+
+.play-controls {
+  background: #6B6B6B;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  margin: auto;
+}
+
+.play-controls:hover {
+  background: #6b6b6bbd;
+  cursor: pointer;
+}
+
+.play-name-artist {
+  display: flex;
+  flex-direction: column;
+}
+
+.play-process {}
+
+.play-process .play-proces-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.play-process .play-proces-icons .play-proces-time {
+  color: #c4c4c4;
+}
+.play-icons-content {
+  display: flex;
+  gap: .625rem;
+}
+.play-process .play-proces-icons .icons {
+  color: #909090;
+}
+.play-process .play-proces-icons .icons :hover {
+  color: #b6b6b6;
+  cursor: pointer;
+}
+.play-process hr {
+  width: 400px;
+  height: 4px;
+  background: #6B6B6B;
+  border: none;
+}
+
+.top-list-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-next {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #6B6B6B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-next:hover {
+  background: #6b6b6baf;
+  cursor: pointer;
+}
+
+.top-list {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.play-music-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.25rem;
+}
+
+.recomended-list {
+  font-size: 30px;
+  font-weight: 500;
+}
